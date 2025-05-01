@@ -8,7 +8,7 @@
           <mxGeometry x="290" y="310" width="510" height="300" as="geometry" />
         </mxCell>
         <mxCell id="D-snDsypRI0ENQIC7V3B-1" value="输入X" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;" parent="1" vertex="1">
-          <mxGeometry x="120" y="417.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="417.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D-snDsypRI0ENQIC7V3B-2" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="320" y="330" width="140" height="90" as="geometry" />
@@ -271,14 +271,11 @@
         <mxCell id="rITo4k_GJHKlOmPV8J90-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;" vertex="1" parent="1">
           <mxGeometry x="1500" y="340" width="510" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="rITo4k_GJHKlOmPV8J90-18" value="多头拼接" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="360" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="rITo4k_GJHKlOmPV8J90-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rITo4k_GJHKlOmPV8J90-27" target="rITo4k_GJHKlOmPV8J90-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rITo4k_GJHKlOmPV8J90-27" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(21, 167, 167); font-family: &amp;quot;Cascadia Code PL&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13.05px; background-color: rgb(44, 48, 83);&quot;&gt;$$&amp;nbsp; H^{&#39;}=Concat(\hat{H}_1,...,\hat{H}_K)W_O$$&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="450" width="370" height="80" as="geometry" />
+          <mxGeometry x="1550" y="410" width="370" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rITo4k_GJHKlOmPV8J90-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="D-snDsypRI0ENQIC7V3B-52" target="rITo4k_GJHKlOmPV8J90-27">
           <mxGeometry relative="1" as="geometry" />
@@ -303,6 +300,12 @@
         </mxCell>
         <mxCell id="rITo4k_GJHKlOmPV8J90-33" value="输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;" vertex="1" parent="1">
           <mxGeometry x="2170" y="592" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rITo4k_GJHKlOmPV8J90-18" value="多头拼接" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="425" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rITo4k_GJHKlOmPV8J90-35" value="残差连接" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="592" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
