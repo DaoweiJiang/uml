@@ -1,9 +1,117 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="d8xmwm0K5seWIB_LmX5w">
-    <mxGraphModel>
+    <mxGraphModel dx="2640" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="felbUtaew3qLh6SGDvUi-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-4" target="felbUtaew3qLh6SGDvUi-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="290" />
+              <mxPoint x="150" y="381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;输入H&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-11" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="358" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-15" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;周期分支LSTM&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="210" y="254" width="210" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-16" target="felbUtaew3qLh6SGDvUi-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-16" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;突发分支LSTM&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="210" y="352" width="210" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="540" y="230" width="320" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-28" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="384" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="910" y="230" width="270" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-44" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="364" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-53" target="felbUtaew3qLh6SGDvUi-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-53" target="felbUtaew3qLh6SGDvUi-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-53" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;动态门控融合&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="210" y="451" width="210" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.842;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-15" target="felbUtaew3qLh6SGDvUi-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="289" />
+              <mxPoint x="440" y="289" />
+              <mxPoint x="440" y="430" />
+              <mxPoint x="387" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-57" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;静态邻接矩阵&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="570" y="259.56" width="240" height="60.44" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-58" target="felbUtaew3qLh6SGDvUi-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-58" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;动态邻接矩阵&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="570" y="352" width="240" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-59" target="felbUtaew3qLh6SGDvUi-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-59" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;多头GAT&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="570" y="451" width="240" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.807;entryY=-0.061;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-57" target="felbUtaew3qLh6SGDvUi-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="309" />
+              <mxPoint x="830" y="309" />
+              <mxPoint x="830" y="430" />
+              <mxPoint x="764" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-64" target="felbUtaew3qLh6SGDvUi-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-64" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;层归一化&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="940" y="264" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-65" target="felbUtaew3qLh6SGDvUi-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-65" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;特征映射与非线性变换&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="940" y="358" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="felbUtaew3qLh6SGDvUi-66" target="felbUtaew3qLh6SGDvUi-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-66" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;多步交通流量状态预测&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="940" y="454" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="felbUtaew3qLh6SGDvUi-67" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;输入Y&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;" vertex="1" parent="1">
+          <mxGeometry x="1238" y="452" width="150" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
